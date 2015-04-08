@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	color: white;
+	font-family: "Segoe UI","Microsoft Yahei","微软雅黑";
+    background-color: #260930;
+}
+
+.container {
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	/*height: 200px;*/
+}
+
+.leftbox {
+	width: 18%;
+	float: left;
+	height: 400px;
+}
+
+.title {
+	width: 100%;
+	margin-top: 10px;
+	text-align: center;
+	/*background-color: #00ABA9;*/
+}
+
+.title  h1{
+	display: block;
+	padding: 12px 0;
+	margin: 0;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.menu {
+	width: 100%;
+	height: 200px;
+	float: left;
+}
+
+.menu p{
+	display: block;
+	font-size: 0.924em;
+	padding: 12px 12px 12px 12px;
+	margin: 0;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+.menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu ul li a{
+	display: block;
+	font-size: 0.924em;
+	padding: 12px 12px 12px 12px;
+	margin: 0;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: right;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.menu a:link {
+	color: #FFFFFF;
+	background-color: #00ABA9;
+}
+
+.menu a:visited {
+	color: #FFFFFF;
+	background-color: #00ABA9;
+}
+
+.menu a:hover {
+	color: #000000;
+	background-color: #4EB3B9;
+}
+
+.menu a:active {
+	color: #FFFFFF;
+	background-color: #6E155F;
+}
+
+.addition {
+	width: 100%;
+	float: left;
+	margin-top: 5px;
+}
+
+.addition p{
+	display: block;
+	font-size: 0.924em;
+	padding: 12px 12px 12px 12px;
+	margin: 0;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+.addition ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.addition li{
+	font-size: 0.924em;
+	text-decoration: none;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.addition ul li a{
+	display: block;
+	font-size: 0.924em;
+	padding: 12px 12px 12px 12px;
+	text-decoration: none;
+	text-align: right;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.addition a:link {
+	color: #FFFFFF;
+	background-color: #8CBF26;
+}
+
+.addition a:visited {
+	color: #FFFFFF;
+	background-color: #8CBF26;
+}
+
+.addition a:hover {
+	color: #000000;
+	background-color: #ADFF2F;
+}
+
+.addition a:active {
+	color: #FFFFFF;
+	background-color: #6E155F;
+}
+
+.content {
+	width: 79%
+	margin-left: 2%;
+	margin-right: 1%;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css.css" type="text/css" />
+<title>Board|Contest Rating System</title>
+</head>
+<script type="text/javascript">
+	function changeFrame(obj)
+	{
+		var path = "summary/Summary@" + obj.innerHTML + ".html";
+		document.getElementById('demo').src = path;
+	}
+	
+	function showLastBoard()
+	{
+		var path = "summary/Summary.html";
+		document.getElementById('demo').src = path;
+	}
+
+</script>
+<body>
+<div class="container">
+	<div class="leftbox">
+		<div class="title">
+			<h1>NWPU 2015</h1>
+		</div>
+		
+		<div class="addition">
+			<p>Portals</p>
+			<ul>
+				<li>Codes of each contest</li>
+				<li><a href="https://github.com/nwpuacm2012/nwpu2015/" title="Update After Contest" target="_blank">>Git Here<</a></li>
+				<li>Published by</li>
+				<li><a href="mailto:polossk_dev@126.com" title="Contact Me">Polo Shen</a></li>
+			</ul>
+		</div>
+
+		<div class="menu">
+			<p>Board List</p>
+			<ul id="board">
+				<li><a href="javascript:void(0);" onclick="showLastBoard()">Last Board</a></li>
+				<li><a href="javascript:void(0);" onclick="changeFrame(this)">2015-03-15</a></li>
+				<li><a href="javascript:void(0);" onclick="changeFrame(this)">2015-03-08</a></li>
+			</ul>
+		</div>
+		
+	</div>
+	<div class="content">
+		<iframe id="demo" 
+			src="summary/Summary.html" 
+			width=800px
+			scrolling="no"
+			frameborder="0" 
+			onload="this.height=this.contentWindow.document.documentElement.scrollHeight">
+		</iframe>
+	</div>
+</div>
+</body>
+</html>
